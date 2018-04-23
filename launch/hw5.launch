@@ -1,0 +1,4 @@
+<launch>
+	<include file="/opt/ros/kinetic/share/openni_launch/launch/openni.launch" />
+	<node pkg="hw5" name="hw5" type="hw5" launch-prefix="xterm -e"/>
+</launch>
